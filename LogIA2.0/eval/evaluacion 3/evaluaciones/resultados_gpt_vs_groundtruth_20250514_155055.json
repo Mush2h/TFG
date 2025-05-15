@@ -1,0 +1,26 @@
+{
+  "phi4": {
+    "modelo": "phi4",
+    "evaluacion": "1. Correcta.\n2. N/A\n3. 10/10\n\nLa respuesta del modelo es correcta y proporciona incluso más detalles que la respuesta original. Ambas respuestas indican que el sistema está registrando accesos y detectando eventos sospechosos, aunque el modelo proporciona detalles adicionales sobre los tipos de amenazas detectadas.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 2 - Resumen del contenido"
+  },
+  "llama3.2": {
+    "modelo": "llama3.2",
+    "evaluacion": "1. Incorrecta.\n2. La respuesta del modelo proporciona detalles sobre los ataques cibernéticos, pero no menciona el registro de accesos exitosos y fallidos, ni los eventos sospechosos detectados por YARA, que son los puntos clave en la respuesta correcta.\n3. Calificación: 0/10. La respuesta del modelo no coincide con la respuesta correcta.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 2 - Resumen del contenido"
+  },
+  "deepseek-r1_32b": {
+    "modelo": "deepseek-r1_32b",
+    "evaluacion": "1. Incorrecta.\n2. La respuesta del modelo no coincide con la respuesta correcta. Aunque ambas respuestas hablan de eventos en el sistema, la respuesta del modelo menciona un ataque de fuerza bruta y eliminación de archivos maliciosos, detalles que no están presentes en la respuesta correcta.\n3. Calificación: 0/10.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 2 - Resumen del contenido"
+  },
+  "openai_gpt4": {
+    "modelo": "openai_gpt4",
+    "evaluacion": "1. Incorrecta.\n2. La respuesta del modelo no coincide con la respuesta correcta. Aunque ambas respuestas implican problemas de seguridad, la respuesta correcta se refiere a la detección de eventos sospechosos por YARA, mientras que la respuesta del modelo habla de múltiples intentos de autenticación fallidos y la detección y eliminación de archivos maliciosos.\n3. Calificación: 0/10.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 2 - Resumen del contenido"
+  }
+}

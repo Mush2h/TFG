@@ -1,0 +1,26 @@
+{
+  "deepseek-r1_32b": {
+    "modelo": "deepseek-r1_32b",
+    "evaluacion": "1. \"¿Qué podría estar causando los errores observados?\" \n   - Respuesta del modelo: Correcta\n   - Explicación: La respuesta del modelo coincide con la respuesta correcta, mencionando los intentos de fuerza bruta y la detección de archivos maliciosos.\n\n2. \"Sugiere posibles soluciones para los errores detectados.\"\n   - Respuesta del modelo: Correcta\n   - Explicación: Aunque las soluciones sugeridas por el modelo no son exactamente las mismas que las correctas, todas son válidas y relevantes para el problema.\n\n3. \"¿Hay indicios de algún tipo de ataque, dime cual o cuales?\"\n   - Respuesta del modelo: Correcta\n   - Explicación: La respuesta del modelo coincide con la respuesta correcta, identificando un ataque de fuerza bruta y una posible infección por malware.\n\n4. \"¿Cuál sería tu diagnóstico general del estado del sistema según estos logs?\"\n   - Respuesta del modelo: Correcta\n   - Explicación: La respuesta del modelo coincide con la respuesta correcta, indicando que el sistema está siendo objeto de ataques y que hay actividad sospechosa.\n\nCalificación: 10/10. Todas las respuestas del modelo son correctas y relevantes para las preguntas.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 4 - Conclusiones"
+  },
+  "llama3.2": {
+    "modelo": "llama3.2",
+    "evaluacion": "1. \"¿Qué podría estar causando los errores observados?\": Correcta.\n   - La respuesta del modelo coincide con la respuesta correcta, aunque no menciona explícitamente la fuerza bruta SSH, sí menciona problemas de seguridad debido a múltiples intentos de inicio de sesión fallidos, que es una descripción de un ataque de fuerza bruta.\n\n2. \"Sugiere posibles soluciones para los errores detectados.\": Incorrecta.\n   - La respuesta del modelo sugiere reiniciar el servidor y actualizar el software, que no son soluciones directas para los problemas mencionados en la respuesta correcta. No menciona bloquear IPs, configurar autenticación de dos factores, ni revisar la integridad de archivos.\n\n3. \"¿Hay indicios de algún tipo de ataque, dime cual o cuales?\": Correcta.\n   - Aunque el modelo no menciona explícitamente el ataque de fuerza bruta, sí menciona la presencia de archivos ejecutables sospechosos, que es un indicio de instalación de malware.\n\n4. \"¿Cuál sería tu diagnóstico general del estado del sistema según estos logs?\": Correcta.\n   - La respuesta del modelo coincide con la respuesta correcta en que el sistema está en alto riesgo debido a intentos fallidos de inicio de sesión y la presencia de archivos ejecutables sospechosos.\n\nCalificación: 7/10. Las respuestas del modelo son en su mayoría correctas, pero falla en proporcionar soluciones adecuadas para los problemas detectados.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 4 - Conclusiones"
+  },
+  "phi4": {
+    "modelo": "phi4",
+    "evaluacion": "1. \"¿Qué podría estar causando los errores observados?\": Correcta.\n2. \"Sugiere posibles soluciones para los errores detectados.\": Correcta.\n3. \"¿Hay indicios de algún tipo de ataque, dime cual o cuales?\": Correcta.\n4. \"¿Cuál sería tu diagnóstico general del estado del sistema según estos logs?\": Correcta.\n\nExplicación: Todas las respuestas del modelo son correctas. Aunque no son exactamente iguales a las respuestas correctas, el modelo proporciona respuestas que son equivalentes en contenido y significado a las respuestas correctas.\n\nCalificación: 10/10.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 4 - Conclusiones"
+  },
+  "openai_gpt4": {
+    "modelo": "openai_gpt4",
+    "evaluacion": "1. \"¿Qué podría estar causando los errores observados?\": Correcta. La respuesta del modelo coincide con la respuesta correcta, aunque con un lenguaje ligeramente diferente.\n   \n2. \"Sugiere posibles soluciones para los errores detectados.\": Correcta. La respuesta del modelo es correcta y proporciona soluciones similares a las de la respuesta correcta, aunque con un lenguaje ligeramente diferente.\n\n3. \"¿Hay indicios de algún tipo de ataque, dime cual o cuales?\": Correcta. La respuesta del modelo coincide con la respuesta correcta, identificando correctamente los tipos de ataques.\n\n4. \"¿Cuál sería tu diagnóstico general del estado del sistema según estos logs?\": Correcta. La respuesta del modelo coincide con la respuesta correcta, proporcionando un diagnóstico similar del estado del sistema.\n\nCalificación: 10/10. Todas las respuestas del modelo son correctas y proporcionan la misma información que las respuestas correctas, aunque con un lenguaje ligeramente diferente.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 4 - Conclusiones"
+  }
+}

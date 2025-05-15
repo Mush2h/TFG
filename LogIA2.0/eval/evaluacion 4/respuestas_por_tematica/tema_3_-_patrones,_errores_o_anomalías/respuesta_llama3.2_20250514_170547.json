@@ -1,0 +1,11 @@
+{
+  "modelo": "llama3.2",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 3 - Patrones, errores o anomalías",
+  "preguntas_respuestas": {
+    "¿Detectas algún comportamiento anómalo en estos logs?": "Sí, detecto varios comportamientos anómalos.",
+    "¿Hay intentos de acceso fallidos?¿Dime con que alerta?": "Sí: Hay intentos de acceso fallidos y múltiples sistemas operativos en uso como Linux y Windows.",
+    "¿Hay ficheros que son problemáticos dime cuales?": "Alerta: SSHD: brute force trying to get access to the system. PAM: Multiple failed logins in a small period of time."
+  },
+  "timestamp": "20250514_170547"
+}

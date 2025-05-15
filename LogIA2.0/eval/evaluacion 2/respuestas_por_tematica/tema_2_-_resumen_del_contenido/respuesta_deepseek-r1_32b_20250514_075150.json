@@ -1,0 +1,9 @@
+{
+  "modelo": "deepseek-r1_32b",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 2 - Resumen del contenido",
+  "preguntas_respuestas": {
+    "Resume en una línea qué está ocurriendo en el sistema.": "El sistema está experimentando intentos fallidos de autenticación SSH, detección y eliminación de archivos maliciosos en el directorio /home, así como actividad sospechosa relacionada con accesos no autorizados."
+  },
+  "timestamp": "20250514_075150"
+}

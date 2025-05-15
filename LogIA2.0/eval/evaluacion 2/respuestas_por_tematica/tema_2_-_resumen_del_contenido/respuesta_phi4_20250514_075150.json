@@ -1,0 +1,9 @@
+{
+  "modelo": "phi4",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 2 - Resumen del contenido",
+  "preguntas_respuestas": {
+    "Resume en una línea qué está ocurriendo en el sistema.": "El sistema ha sufrido múltiples intentos de acceso fallidos, seguidos de la detección y eliminación de archivos maliciosos como webshells y malware (xbash, Mirai) en el directorio `/home`, junto con un exceso de intentos de autenticación."
+  },
+  "timestamp": "20250514_075150"
+}

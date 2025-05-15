@@ -1,0 +1,26 @@
+{
+  "phi4": {
+    "modelo": "phi4",
+    "evaluacion": "1. Respuesta: Correcta.\n2. Respuesta: Correcta.\n3. Respuesta: Incorrecta. La respuesta correcta es \"3: B\" pero el modelo respondió \"3: D\". El modelo se equivocó en la opción de la respuesta.\n4. Respuesta: Correcta.\n5. Respuesta: Correcta.\n6. Respuesta: Correcta.\n\nCalificación: 8/10. El modelo respondió incorrectamente a una de las seis preguntas.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 5 - Preguntas de opción múltiple"
+  },
+  "llama3.2": {
+    "modelo": "llama3.2",
+    "evaluacion": "1. Respuesta: Correcta.\n2. Respuesta: Correcta.\n3. Respuesta: Incorrecta. La respuesta correcta es \"3: B\". El modelo eligió la opción \"3: D\", que es incorrecta.\n4. Respuesta: Incorrecta. La respuesta correcta es \"4: C\". El modelo eligió la opción \"4: A\", que es incorrecta.\n5. Respuesta: Incorrecta. La respuesta correcta es \"5: C\". El modelo eligió la opción \"5: D\", que es incorrecta.\n6. Respuesta: Correcta.\n\nCalificación: 5/10. El modelo de lenguaje respondió correctamente a 3 de las 6 preguntas.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 5 - Preguntas de opción múltiple"
+  },
+  "deepseek-r1_32b": {
+    "modelo": "deepseek-r1_32b",
+    "evaluacion": "1. Respuesta: Incorrecta. Explicación: El modelo no proporcionó una respuesta a la pregunta.\n2. Respuesta: Incorrecta. Explicación: El modelo no proporcionó una respuesta a la pregunta.\n3. Respuesta: Incorrecta. Explicación: El modelo no proporcionó una respuesta a la pregunta.\n4. Respuesta: Incorrecta. Explicación: Aunque la respuesta del modelo es correcta, no se corresponde con la pregunta que se le hizo.\n5. Respuesta: Incorrecta. Explicación: El modelo no proporcionó una respuesta a la pregunta.\n6. Respuesta: Incorrecta. Explicación: El modelo no proporcionó una respuesta a la pregunta.\n\nCalificación: 0/10. El modelo no proporcionó respuestas correctas a ninguna de las preguntas.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 5 - Preguntas de opción múltiple"
+  },
+  "openai_gpt4": {
+    "modelo": "openai_gpt4",
+    "evaluacion": "1. \"¿Qué tipo de ataque se detecta en múltiples entradas del log?\\nA) Escaneo de puertos\\nB) Ataque de denegación de servicio (DoS)\\nC) Fuerza bruta sobre SSH\\nD) Inyección SQL\"\n   - Respuesta del modelo: Correcta\n\n2. \"¿Qué archivo fue identificado con múltiples reglas YARA maliciosas?\\nA) /etc/passwd\\nB) /home/mirai\\nC) /var/log/auth.log\\nD) /home/unknown\"\n   - Respuesta del modelo: Correcta\n\n3. \"¿Qué nivel de criticidad es la mayor de los eventos detectados?\\nA) 3\\nB) 12\\nC) 7\\nD) 10\"\n   - Respuesta del modelo: Incorrecta\n   - Explicación: La respuesta correcta es \"B) 12\", pero el modelo respondió \"D) 10\".\n\n4. \"¿Cuál es el evento más crítico relacionado con sshd?\\nA) Cambio de contraseña exitoso\\nB) Acceso root autorizado\\nC) Autenticación fallida por fuerza bruta\\nD) Sesión cerrada\"\n   - Respuesta del modelo: Correcta\n\n5. \"¿Qué agente está registrando todos los eventos del log?\\nA) agente-centos\\nB) agente-debian\\nC) agente-ubuntu\\nD) agente-fedora\"\n   - Respuesta del modelo: Correcta\n\n6. \"¿Qué tipo de archivos fueron detectados como maliciosos por las reglas YARA?\\nA) Archivos .docx\\nB) Archivos .conf\\nC) Archivos sospechosos en /home/\\nD) Archivos ejecutables del sistema\"\n   - Respuesta del modelo: Correcta\n\nCalificación: 8.33/10 (5 de 6 respuestas correctas)",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 5 - Preguntas de opción múltiple"
+  }
+}

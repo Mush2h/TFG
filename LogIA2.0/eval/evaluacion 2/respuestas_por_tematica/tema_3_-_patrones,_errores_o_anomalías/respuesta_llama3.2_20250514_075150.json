@@ -1,0 +1,11 @@
+{
+  "modelo": "llama3.2",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 3 - Patrones, errores o anomalías",
+  "preguntas_respuestas": {
+    "¿Detectas algún comportamiento anómalo en estos logs?": "Sí, detecto un comportamiento anómalo: intentos de acceso fallidos.",
+    "¿Hay intentos de acceso fallidos?¿Dime con que alerta?": "Alerta: Maximum authentication attempts exceeded.",
+    "¿Hay ficheros que son problemáticos dime cuales?": "Nombres ficheros problematicos:"
+  },
+  "timestamp": "20250514_075150"
+}

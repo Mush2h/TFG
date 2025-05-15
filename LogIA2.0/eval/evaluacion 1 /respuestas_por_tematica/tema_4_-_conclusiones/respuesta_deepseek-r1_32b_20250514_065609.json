@@ -1,0 +1,12 @@
+{
+  "modelo": "deepseek-r1_32b",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 4 - Conclusiones",
+  "preguntas_respuestas": {
+    "¿Qué podría estar causando los errores observados?": "Posible causa de errores: Accesos no autorizados, intentos de fuerza bruta, detección de archivos maliciosos (xbash, mirai, webshell).",
+    "Sugiere posibles soluciones para los errores detectados.": "Soluciones sugeridas: Asegurar SSH con claves, cambiar puerto predeterminado, auditar cuentas de usuarios, monitorizar cambios en directorios /home.",
+    "¿Hay indicios de algún tipo de ataque, dime cual o cuales?": "Indicios de ataque: Sí, tipo: Fuerza bruta y posible infección por malware.",
+    "¿Cuál sería tu diagnóstico general del estado del sistema según estos logs?": "Diagnóstico general: El sistema está siendo objetivo de ataques, con actividad sospechosa detectada y archivos maliciosos eliminados automáticamente."
+  },
+  "timestamp": "20250514_065609"
+}

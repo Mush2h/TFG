@@ -1,0 +1,26 @@
+{
+  "llama3.2": {
+    "modelo": "llama3.2",
+    "evaluacion": "1. \"¿Qué tipo de ataque se detecta en múltiples entradas del log?\\nA) Escaneo de puertos\\nB) Ataque de denegación de servicio (DoS)\\nC) Fuerza bruta sobre SSH\\nD) Inyección SQL\"\n   - Respuesta del modelo: Correcta\n\n2. \"¿Qué archivo fue identificado con múltiples reglas YARA maliciosas?\\nA) /etc/passwd\\nB) /home/mirai\\nC) /var/log/auth.log\\nD) /home/unknown\"\n   - Respuesta del modelo: Correcta\n\n3. \"¿Qué nivel de criticidad es la mayor de los eventos detectados?\\nA) 3\\nB) 12\\nC) 7\\nD) 10\"\n   - Respuesta del modelo: Incorrecta\n   - Explicación: La respuesta correcta es \"B) 12\", pero el modelo respondió \"D) 10\".\n\n4. \"¿Cuál es el evento más crítico relacionado con sshd?\\nA) Cambio de contraseña exitoso\\nB) Acceso root autorizado\\nC) Autenticación fallida por fuerza bruta\\nD) Sesión cerrada\"\n   - Respuesta del modelo: Incorrecta\n   - Explicación: La respuesta correcta es \"C) Autenticación fallida por fuerza bruta\", pero el modelo respondió \"A) Cambio de contraseña exitoso\".\n\n5. \"¿Qué agente está registrando todos los eventos del log?\\nA) agente-centos\\nB) agente-debian\\nC) agente-ubuntu\\nD) agente-fedora\"\n   - Respuesta del modelo: Incorrecta\n   - Explicación: La respuesta correcta es \"C) agente-ubuntu\", pero el modelo respondió \"A) agente-centos\".\n\n6. \"¿Qué tipo de archivos fueron detectados como maliciosos por las reglas YARA?\\nA) Archivos .docx\\nB) Archivos .conf\\nC) Archivos sospechosos en /home/\\nD) Archivos ejecutables del sistema\"\n   - Respuesta del modelo: Correcta\n\nCalificación: 5/10",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 5 - Preguntas de opción múltiple"
+  },
+  "phi4": {
+    "modelo": "phi4",
+    "evaluacion": "1. Respuesta: Correcta\n2. Respuesta: Correcta\n3. Respuesta: Incorrecta. La respuesta correcta es \"3: B\". El modelo respondió \"3: D\", lo cual es incorrecto.\n4. Respuesta: Correcta\n5. Respuesta: Correcta\n6. Respuesta: Correcta\n\nExplicación: El modelo cometió un error en la tercera pregunta, seleccionando la opción incorrecta para el nivel de criticidad más alto de los eventos detectados.\n\nCalificación: 8.3/10",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 5 - Preguntas de opción múltiple"
+  },
+  "openai_gpt4": {
+    "modelo": "openai_gpt4",
+    "evaluacion": "1. Pregunta: \"¿Qué tipo de ataque se detecta en múltiples entradas del log?\\nA) Escaneo de puertos\\nB) Ataque de denegación de servicio (DoS)\\nC) Fuerza bruta sobre SSH\\nD) Inyección SQL\"\n   Respuesta del modelo: \"1: C\"\n   Evaluación: Correcta\n\n2. Pregunta: \"¿Qué archivo fue identificado con múltiples reglas YARA maliciosas?\\nA) /etc/passwd\\nB) /home/mirai\\nC) /var/log/auth.log\\nD) /home/unknown\"\n   Respuesta del modelo: \"2: B\"\n   Evaluación: Correcta\n\n3. Pregunta: \"¿Qué nivel de criticidad es la mayor de los eventos detectados por las reglas YARA?\\nA) 3\\nB) 12\\nC) 7\\nD) 10\"\n   Respuesta del modelo: \"3: D\"\n   Evaluación: Incorrecta. La respuesta correcta es \"3: B\". El modelo seleccionó la opción D, que no es la correcta según la respuesta correcta proporcionada.\n\n4. Pregunta: \"¿Cuál es el evento más crítico relacionado con sshd?\\nA) Cambio de contraseña exitoso\\nB) Acceso root autorizado\\nC) Autenticación fallida por fuerza bruta\\nD) Sesión cerrada\"\n   Respuesta del modelo: \"4: C\"\n   Evaluación: Correcta\n\n5. Pregunta: \"¿Qué agente está registrando todos los eventos del log?\\nA) agente-centos\\nB) agente-debian\\nC) agente-ubuntu\\nD) agente-fedora\"\n   Respuesta del modelo: \"5: C\"\n   Evaluación: Correcta\n\n6. Pregunta: \"¿Qué tipo de archivos fueron detectados como maliciosos por las reglas YARA?\\nA) Archivos .docx\\nB) Archivos .conf\\nC) Archivos sospechosos en /home/\\nD) Archivos ejecutables del sistema\"\n   Respuesta del modelo: \"6: C\"\n   Evaluación: Correcta\n\nCalificación: 8.33/10 (5 respuestas correctas de 6)",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 5 - Preguntas de opción múltiple"
+  },
+  "deepseek-r1_32b": {
+    "modelo": "deepseek-r1_32b",
+    "evaluacion": "1. Respuesta: Incorrecta. La respuesta del modelo \"C. Ataque de denegación\" no coincide con la respuesta correcta \"1: C\" que es \"Fuerza bruta sobre SSH\". El modelo parece haber confundido la opción C con la respuesta correcta.\n\n2. Respuesta: Incorrecta. El modelo no proporcionó ninguna respuesta, por lo que no puede ser correcta.\n\n3. Respuesta: Incorrecta. El modelo no proporcionó ninguna respuesta, por lo que no puede ser correcta.\n\n4. Respuesta: Incorrecta. El modelo no proporcionó ninguna respuesta, por lo que no puede ser correcta.\n\n5. Respuesta: Incorrecta. El modelo no proporcionó ninguna respuesta, por lo que no puede ser correcta.\n\n6. Respuesta: Incorrecta. El modelo no proporcionó ninguna respuesta, por lo que no puede ser correcta.\n\nCalificación: 0/10. El modelo no proporcionó respuestas correctas para ninguna de las preguntas.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 5 - Preguntas de opción múltiple"
+  }
+}

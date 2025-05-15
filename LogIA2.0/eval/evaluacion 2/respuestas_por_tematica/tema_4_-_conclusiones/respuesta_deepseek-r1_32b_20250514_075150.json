@@ -1,0 +1,12 @@
+{
+  "modelo": "deepseek-r1_32b",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 4 - Conclusiones",
+  "preguntas_respuestas": {
+    "¿Qué podría estar causando los errores observados?": "Posible causa de errores: Alta actividad de intentos fallidos de autenticación SSH (339), posibles intentos brutales; creación y modificación de archivos maliciosos en /home.",
+    "Sugiere posibles soluciones para los errores detectados.": "Soluciones sugeridas: Bloquear IPs problemáticas, implementar autenticación multi factor, reforzar contraseñas, habilitar respuesta activa.",
+    "¿Hay indicios de algún tipo de ataque, dime cual o cuales?": "Indicios de ataque: Sí, tipo: Intento de acceso no autorizado y posible infección con malware (/mirai, /xbash).",
+    "¿Cuál sería tu diagnóstico general del estado del sistema según estos logs?": "Diagnóstico general: Sistema vulnerable a ataques SSH, actividad sospechosa detectada y mitigada parcialmente, necesidad de reforzar seguridad."
+  },
+  "timestamp": "20250514_075150"
+}

@@ -1,0 +1,9 @@
+{
+  "modelo": "phi4",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 2 - Resumen del contenido",
+  "preguntas_respuestas": {
+    "Resume en una línea qué está ocurriendo en el sistema.": "El agente-ubuntu detecta múltiples intentos de acceso fallidos y la presencia de archivos maliciosos, como webshells y malware (Mirai, Xbash), seguido de acciones de respuesta activa para eliminarlos."
+  },
+  "timestamp": "20250514_170547"
+}

@@ -1,0 +1,11 @@
+{
+  "modelo": "llama3.2",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 3 - Patrones, errores o anomalías",
+  "preguntas_respuestas": {
+    "¿Detectas algún comportamiento anómalo en estos logs?": "Sí, detecto varios comportamientos anómalos.",
+    "¿Hay intentos de acceso fallidos?¿Dime con que alerta?": "*   Intentos de acceso fallidos: Sí, el nivel 10 del rule ID 5760 \"sshd: authentication failed.\" indica que hubo intentos de acceso fallidos.",
+    "¿Hay ficheros que son problemáticos dime cuales?": "*   Alerta: La alerta es \"Maximum authentication attempts exceeded.\""
+  },
+  "timestamp": "20250514_153407"
+}

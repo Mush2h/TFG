@@ -1,0 +1,11 @@
+{
+  "modelo": "deepseek-r1_32b",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 3 - Patrones, errores o anomalías",
+  "preguntas_respuestas": {
+    "¿Detectas algún comportamiento anómalo en estos logs?": "Sí Anomalía de detección; Sí Intentos fallidos de acceso; Alerta 5760 SSH authentication failed; Archivos problemáticos /home/xbash /home/mirai /home/webshell",
+    "¿Hay intentos de acceso fallidos?¿Dime con que alerta?": "(Sin respuesta)",
+    "¿Hay ficheros que son problemáticos dime cuales?": "(Sin respuesta)"
+  },
+  "timestamp": "20250514_170547"
+}

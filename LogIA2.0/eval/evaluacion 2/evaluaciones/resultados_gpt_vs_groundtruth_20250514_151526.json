@@ -1,0 +1,26 @@
+{
+  "openai_gpt4": {
+    "modelo": "openai_gpt4",
+    "evaluacion": "1. \"¿Qué podría estar causando los errores observados?\": Correcta. Aunque la respuesta del modelo no menciona específicamente la \"fuerza bruta SSH\", sí menciona \"múltiples intentos de autenticación fallidos\", que es una descripción de un ataque de fuerza bruta. También menciona \"archivos maliciosos detectados\", que se alinea con \"ejecución de binarios sospechosos\".\n\n2. \"Sugiere posibles soluciones para los errores detectados.\": Correcta. La respuesta del modelo sugiere \"reforzar las políticas de seguridad de autenticación\", que es similar a \"bloquear IPs, configurar autenticación de dos factores\" y \"realizar un escaneo completo del sistema para detectar y eliminar archivos maliciosos\", que es similar a \"revisar integridad de archivos\".\n\n3. \"¿Hay indicios de algún tipo de ataque, dime cual o cuales?\": Correcta. La respuesta del modelo menciona \"fuerza bruta\" y \"presencia de webshells y malware\", que se alinea con \"ataque de fuerza bruta e instalación de malware\".\n\n4. \"¿Cuál sería tu diagnóstico general del estado del sistema según estos logs?\": Correcta. La respuesta del modelo indica que \"el sistema está siendo atacado y se han detectado archivos maliciosos\", que es similar a \"sistema bajo intento activo de intrusión con evidencias de compromiso parcial\".\n\nCalificación: 10/10. Todas las respuestas del modelo son correctas y se alinean bien con las respuestas correctas.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 4 - Conclusiones"
+  },
+  "phi4": {
+    "modelo": "phi4",
+    "evaluacion": "1. \"¿Qué podría estar causando los errores observados?\": Correcta. La respuesta del modelo coincide con la respuesta correcta, aunque proporciona detalles adicionales.\n2. \"Sugiere posibles soluciones para los errores detectados.\": Correcta. La respuesta del modelo coincide con la respuesta correcta, aunque proporciona detalles adicionales.\n3. \"¿Hay indicios de algún tipo de ataque, dime cual o cuales?\": Correcta. La respuesta del modelo coincide con la respuesta correcta, aunque proporciona detalles adicionales.\n4. \"¿Cuál sería tu diagnóstico general del estado del sistema según estos logs?\": Correcta. La respuesta del modelo coincide con la respuesta correcta, aunque proporciona detalles adicionales.\n\nCalificación: 10/10. Todas las respuestas del modelo son correctas y proporcionan detalles adicionales que podrían ser útiles para entender la situación.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 4 - Conclusiones"
+  },
+  "llama3.2": {
+    "modelo": "llama3.2",
+    "evaluacion": "1. \"¿Qué podría estar causando los errores observados?\": Correcta.\n2. \"Sugiere posibles soluciones para los errores detectados.\": Incorrecta. La respuesta del modelo no coincide con la respuesta correcta. Aunque las soluciones propuestas por el modelo son válidas, no menciona el bloqueo de IPs ni la revisión de la integridad de los archivos.\n3. \"¿Hay indicios de algún tipo de ataque, dime cual o cuales?\": Correcta.\n4. \"¿Cuál sería tu diagnóstico general del estado del sistema según estos logs?\": Correcta.\n\nCalificación: 8/10. El modelo respondió correctamente a 3 de las 4 preguntas. Sin embargo, en la segunda pregunta, aunque las soluciones propuestas son válidas, no coinciden exactamente con la respuesta correcta.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 4 - Conclusiones"
+  },
+  "deepseek-r1_32b": {
+    "modelo": "deepseek-r1_32b",
+    "evaluacion": "1. \"¿Qué podría estar causando los errores observados?\": Correcta.\n2. \"Sugiere posibles soluciones para los errores detectados.\": Correcta.\n3. \"¿Hay indicios de algún tipo de ataque, dime cual o cuales?\": Correcta.\n4. \"¿Cuál sería tu diagnóstico general del estado del sistema según estos logs?\": Correcta.\n\nExplicación: Todas las respuestas del modelo son correctas. Aunque no son idénticas a las respuestas correctas, todas ellas proporcionan la misma información y responden adecuadamente a las preguntas.\n\nCalificación: 10/10.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 4 - Conclusiones"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "deepseek-r1_32b": {
+    "modelo": "deepseek-r1_32b",
+    "evaluacion": "1. Incorrecta.\n2. La respuesta del modelo no coincide con la respuesta correcta. Aunque ambas respuestas hablan de eventos que ocurren en un sistema, la respuesta del modelo menciona detalles específicos que no están presentes en la respuesta correcta, como \"múltiples intentos fallidos de autenticación (incluyendo SSH)\", \"detección y eliminación de archivos maliciosos en el directorio /home\" y \"modificaciones activas de archivos\". La respuesta correcta se centra en \"registros de accesos exitosos y fallidos\" y \"eventos sospechosos detectados por YARA\", que no se mencionan en la respuesta del modelo.\n3. Calificación: 0/10.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 2 - Resumen del contenido"
+  },
+  "llama3.2": {
+    "modelo": "llama3.2",
+    "evaluacion": "1. Correcta.\n2. N/A\n3. 10/10\n\nAunque la respuesta del modelo es más detallada que la respuesta correcta, ambas indican que el sistema está registrando accesos exitosos y fallidos, y eventos sospechosos. Por lo tanto, la respuesta del modelo es correcta.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 2 - Resumen del contenido"
+  },
+  "phi4": {
+    "modelo": "phi4",
+    "evaluacion": "1. Incorrecta.\n2. La respuesta del modelo es incorrecta porque aunque proporciona detalles sobre los eventos que ocurren en el sistema, no menciona el registro de accesos exitosos y fallidos, ni los eventos sospechosos detectados por YARA, que son los aspectos clave mencionados en la respuesta correcta.\n3. Calificación: 5/10. Aunque la respuesta del modelo es incorrecta, proporciona información relevante y detallada sobre lo que podría estar ocurriendo en un sistema, lo que demuestra una cierta comprensión del tema. Sin embargo, no coincide con la respuesta correcta, por lo que no puede recibir una puntuación completa.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 2 - Resumen del contenido"
+  },
+  "openai_gpt4": {
+    "modelo": "openai_gpt4",
+    "evaluacion": "1. Incorrecta\n2. La respuesta del modelo no coincide con la respuesta correcta. Aunque ambas respuestas hablan de problemas en el sistema, la respuesta correcta se refiere a registros de accesos exitosos y fallidos y detección de eventos sospechosos por YARA, mientras que la respuesta del modelo habla de intentos de autenticación fallidos, detección y eliminación de archivos maliciosos.\n3. Calificación: 0/10.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 2 - Resumen del contenido"
+  }
+}

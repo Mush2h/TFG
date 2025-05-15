@@ -1,0 +1,26 @@
+{
+  "phi4": {
+    "modelo": "phi4",
+    "evaluacion": "1. \"¿Cuántos eventos hay en el fichero de logs sumando el campo recuento?\": Incorrecta. La respuesta correcta es \"Hay 730 eventos\", pero el modelo respondió \"Hay 103 eventos\".\n2. \"¿Cuántos agentes diferentes aparecen y cual es el nombre?\": Correcta. Tanto la respuesta del modelo como la correcta son \"Hay 1 agente: agente-ubuntu.\"\n3. \"¿Qué tipo de evento es el más crítico dime su según el nivel ?\": Correcta. Tanto la respuesta del modelo como la correcta son \"El evento más crítico es \\\"Multiple authentication failures followed by a success.\\\" con nivel 12.\"\n\nCalificación: 6.7/10. El modelo acertó en dos de las tres preguntas. Sin embargo, la primera respuesta fue incorrecta, lo que afecta su puntuación total.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 1 - Eventos básicos"
+  },
+  "llama3.2": {
+    "modelo": "llama3.2",
+    "evaluacion": "1. Respuesta: Incorrecta.\n   Explicación: La respuesta correcta es \"Hay 730 eventos\", pero el modelo respondió \"Hay 44 eventos\".\n\n2. Respuesta: Incorrecta.\n   Explicación: La respuesta correcta es \"Hay 1 agente: agente-ubuntu\", pero el modelo respondió \"Hay 2 agentes: agente-ubuntu\".\n\n3. Respuesta: Incorrecta.\n   Explicación: La respuesta correcta es \"El evento más crítico es Multiple authentication failures followed by a success. con nivel 12\", pero el modelo respondió \"El evento más crítico es \\\"Maximum authentication attempts exceeded.\\\" con nivel 8\".\n\nCalificación: 0/10. Todas las respuestas del modelo son incorrectas.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 1 - Eventos básicos"
+  },
+  "deepseek-r1_32b": {
+    "modelo": "deepseek-r1_32b",
+    "evaluacion": "1. Respuesta: Incorrecta.\n   Explicación: La respuesta correcta es \"Hay 730 eventos\", pero el modelo respondió \"Hay 27 eventos\".\n\n2. Respuesta: Correcta.\n   Explicación: El modelo respondió correctamente que hay 1 agente y su nombre es agente-ubuntu.\n\n3. Respuesta: Incorrecta.\n   Explicación: La respuesta correcta es \"El evento más crítico es Multiple authentication failures followed by a success. con nivel 12\", pero el modelo respondió con un evento diferente y un nivel incorrecto.\n\nCalificación: 3.3/10. El modelo solo respondió correctamente a 1 de las 3 preguntas.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 1 - Eventos básicos"
+  },
+  "openai_gpt4": {
+    "modelo": "openai_gpt4",
+    "evaluacion": "1. \"¿Cuántos eventos hay en el fichero de logs sumando el campo recuento?\": Incorrecta. La respuesta correcta es \"Hay 730 eventos\", pero el modelo respondió \"Hay 682 eventos\".\nExplicación: El modelo proporcionó un número incorrecto de eventos.\n\n2. \"¿Cuántos agentes diferentes aparecen y cual es el nombre?\": Correcta. La respuesta del modelo coincide con la respuesta correcta.\n\n3. \"¿Qué tipo de evento es el más crítico dime su según el nivel ?\": Correcta. La respuesta del modelo coincide con la respuesta correcta.\n\nCalificación: 6.7/10. El modelo respondió correctamente a 2 de las 3 preguntas.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 1 - Eventos básicos"
+  }
+}

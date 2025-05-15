@@ -1,0 +1,26 @@
+{
+  "llama3.2": {
+    "modelo": "llama3.2",
+    "evaluacion": "1. Respuesta: Correcta.\n2. Respuesta: Correcta.\n3. Respuesta: Incorrecta. La respuesta correcta es \"3: B\". El modelo eligió \"3: A\" que no coincide con la respuesta correcta.\n4. Respuesta: Incorrecta. La respuesta correcta es \"4: C\". El modelo eligió \"4: D\" que no coincide con la respuesta correcta.\n5. Respuesta: Incorrecta. La respuesta correcta es \"5: C\". El modelo eligió \"5: D\" que no coincide con la respuesta correcta.\n6. Respuesta: Correcta.\n\nCalificación: 5/10. El modelo de lenguaje respondió correctamente 3 de 6 preguntas.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 5 - Preguntas de opción múltiple"
+  },
+  "phi4": {
+    "modelo": "phi4",
+    "evaluacion": "1. Respuesta: Correcta.\n2. Respuesta: Correcta.\n3. Respuesta: Incorrecta. El modelo eligió la opción D (10) cuando la respuesta correcta es la opción B (12). Parece que el modelo no comprendió correctamente la pregunta.\n4. Respuesta: Correcta.\n5. Respuesta: Correcta.\n6. Respuesta: Correcta.\n\nCalificación: 8/10. El modelo respondió incorrectamente a una de las seis preguntas.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 5 - Preguntas de opción múltiple"
+  },
+  "deepseek-r1_32b": {
+    "modelo": "deepseek-r1_32b",
+    "evaluacion": "1. Respuesta: Correcta.\n2. Respuesta: Correcta.\n3. Respuesta: Incorrecta. El modelo respondió con la opción D) 10, pero la respuesta correcta es B) 12.\n4. Respuesta: Incorrecta. El modelo proporcionó una respuesta que no se encuentra entre las opciones disponibles. La respuesta correcta es C) Autenticación fallida por fuerza bruta.\n5. Respuesta: Incorrecta. El modelo proporcionó una respuesta que no se encuentra entre las opciones disponibles. La respuesta correcta es C) agente-ubuntu.\n6. Respuesta: Incorrecta. El modelo proporcionó una respuesta que no se encuentra entre las opciones disponibles. La respuesta correcta es C) Archivos sospechosos en /home/.\n\nCalificación: 2/6 = 3.33, redondeado a 3/10.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 5 - Preguntas de opción múltiple"
+  },
+  "openai_gpt4": {
+    "modelo": "openai_gpt4",
+    "evaluacion": "1. Respuesta correcta.\n2. Respuesta correcta.\n3. Respuesta incorrecta. El modelo respondió con la opción D (10), pero la respuesta correcta es la opción B (12).\n4. Respuesta correcta.\n5. Respuesta correcta.\n6. Respuesta correcta.\n\nEn resumen, el modelo respondió correctamente a 5 de las 6 preguntas. La única pregunta que respondió incorrectamente fue la tercera, donde confundió el nivel de criticidad más alto de los eventos detectados. \n\nCalificación: 8.3/10.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 5 - Preguntas de opción múltiple"
+  }
+}

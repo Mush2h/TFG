@@ -1,0 +1,11 @@
+{
+  "modelo": "deepseek-r1_32b",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 3 - Patrones, errores o anomalías",
+  "preguntas_respuestas": {
+    "¿Detectas algún comportamiento anómalo en estos logs?": "Sí. Detecto un comportamiento anómalo con altos intentos fallidos de acceso SSH y actividades sospechosas en el directorio /home.",
+    "¿Hay intentos de acceso fallidos?¿Dime con que alerta?": "Sí. Hay intentos de acceso fallidos detectados con la alerta \"sshd: authentication failed.\" (ID 5760).",
+    "¿Hay ficheros que son problemáticos dime cuales?": "Los ficheros problemáticos son \"/home/xbash\", \"/home/mirai\" y \"/home/webshell\"."
+  },
+  "timestamp": "20250515_040729"
+}

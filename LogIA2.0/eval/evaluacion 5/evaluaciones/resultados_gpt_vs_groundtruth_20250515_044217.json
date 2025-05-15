@@ -1,0 +1,26 @@
+{
+  "phi4": {
+    "modelo": "phi4",
+    "evaluacion": "1. Correcta.\n2. N/A\n3. 10/10\n\nLa respuesta del modelo es correcta. Aunque es más detallada que la respuesta correcta, ambas respuestas indican que el sistema está registrando accesos exitosos y fallidos, y detectando eventos sospechosos.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 2 - Resumen del contenido"
+  },
+  "openai_gpt4": {
+    "modelo": "openai_gpt4",
+    "evaluacion": "1. Incorrecta.\n2. La respuesta del modelo no coincide con la respuesta correcta. Aunque ambas respuestas hablan de eventos en el sistema, la respuesta del modelo introduce detalles que no están presentes en la respuesta correcta, como la \"detección de archivos maliciosos en el directorio /home\" y la \"eliminación exitosa de estos archivos maliciosos\".\n3. Calificación: 0/10.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 2 - Resumen del contenido"
+  },
+  "deepseek-r1_32b": {
+    "modelo": "deepseek-r1_32b",
+    "evaluacion": "1. Incorrecta.\n2. La respuesta del modelo no coincide con la respuesta correcta. Aunque ambas hablan de un sistema y eventos sospechosos, la respuesta del modelo proporciona detalles adicionales que no se mencionan en la respuesta correcta, como un ataque de fuerza bruta, intentos fallidos de autenticación y eliminación de archivos maliciosos.\n3. Calificación: 0/10.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 2 - Resumen del contenido"
+  },
+  "llama3.2": {
+    "modelo": "llama3.2",
+    "evaluacion": "1. Incorrecta.\n2. La respuesta del modelo es incorrecta porque no menciona los accesos exitosos ni los eventos sospechosos detectados por YARA, que son parte de la respuesta correcta.\n3. Calificación: 0/10.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 2 - Resumen del contenido"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "llama3.2": {
+    "modelo": "llama3.2",
+    "evaluacion": "1. \"¿Detectas algún comportamiento anómalo en estos logs?\": Incorrecta. Aunque el modelo identifica que hay comportamientos anómalos, no especifica cuáles son, como lo hace la respuesta correcta.\n2. \"¿Hay intentos de acceso fallidos?¿Dime con que alerta?\": Incorrecta. El modelo no proporciona la alerta correcta. En lugar de mencionar la alerta \"sshd: brute force trying to get access to the system. Authentication failed.\", menciona incorrectamente que hay múltiples sistemas operativos en uso.\n3. \"¿Hay ficheros que son problemáticos dime cuales?\": Incorrecta. El modelo no menciona los ficheros problemáticos (\"/home/xbash, /home/webshell, /home/mirai.\") y en su lugar, proporciona una alerta que debería haber sido mencionada en la pregunta anterior.\n\nCalificación: 0/10. El modelo no proporcionó ninguna respuesta correcta.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 3 - Patrones, errores o anomalías"
+  },
+  "phi4": {
+    "modelo": "phi4",
+    "evaluacion": "1. \"¿Detectas algún comportamiento anómalo en estos logs?\": Correcta. Aunque la respuesta del modelo es más detallada que la respuesta correcta, ambas indican que hay comportamientos anómalos en los logs, incluyendo múltiples intentos de acceso fallidos.\n\n2. \"¿Hay intentos de acceso fallidos?¿Dime con que alerta?\": Incorrecta. La respuesta del modelo no coincide con la respuesta correcta. En lugar de proporcionar la alerta de intentos de acceso fallidos, el modelo proporciona una respuesta que parece estar destinada a otra pregunta.\n   Explicación: La respuesta del modelo parece estar fuera de contexto y no responde a la pregunta que se le hizo.\n\n3. \"¿Hay ficheros que son problemáticos dime cuales?\": Incorrecta. La respuesta del modelo solo menciona uno de los archivos problemáticos (\"/home/webshell\") y omite los otros dos (\"/home/xbash\", \"/home/mirai\") mencionados en la respuesta correcta.\n   Explicación: Aunque el modelo identificó correctamente uno de los archivos problemáticos, no proporcionó una respuesta completa ya que omitió dos de los archivos.\n\nCalificación: 3/10. El modelo solo respondió correctamente a una de las tres preguntas. Las otras dos respuestas fueron incorrectas debido a una respuesta fuera de contexto y a una respuesta incompleta.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 3 - Patrones, errores o anomalías"
+  },
+  "deepseek-r1_32b": {
+    "modelo": "deepseek-r1_32b",
+    "evaluacion": "1. Respuesta a \"¿Detectas algún comportamiento anómalo en estos logs?\": Correcta. Aunque la respuesta del modelo es más detallada que la respuesta correcta, ambas mencionan intentos fallidos de acceso y archivos problemáticos.\n   \n2. Respuesta a \"¿Hay intentos de acceso fallidos?¿Dime con que alerta?\": Incorrecta. El modelo no proporcionó ninguna respuesta.\n\n   Explicación: La respuesta del modelo está vacía, mientras que la respuesta correcta indica que hubo intentos fallidos de acceso con una alerta específica.\n\n3. Respuesta a \"¿Hay ficheros que son problemáticos dime cuales?\": Incorrecta. El modelo no proporcionó ninguna respuesta.\n\n   Explicación: La respuesta del modelo está vacía, mientras que la respuesta correcta menciona tres archivos problemáticos específicos.\n\nCalificación: 3/10. El modelo solo respondió correctamente a una de las tres preguntas. Las otras dos preguntas quedaron sin respuesta.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 3 - Patrones, errores o anomalías"
+  },
+  "openai_gpt4": {
+    "modelo": "openai_gpt4",
+    "evaluacion": "1. \"¿Detectas algún comportamiento anómalo en estos logs?\": Incorrecta. Aunque el modelo identifica correctamente que hay un comportamiento anómalo, no proporciona detalles específicos como los intentos fallidos de autenticación y la ejecución de scripts sospechosos.\n   \n2. \"¿Hay intentos de acceso fallidos?¿Dime con que alerta?\": Incorrecta. El modelo identifica correctamente que hay intentos de acceso fallidos, pero la alerta que proporciona no es la correcta. La alerta correcta es \"sshd: brute force trying to get access to the system. Authentication failed.\"\n\n3. \"¿Hay ficheros que son problemáticos dime cuales?\": Correcta. El modelo identifica correctamente los ficheros problemáticos.\n\nCalificación: 3/10. El modelo solo proporcionó una respuesta correcta de tres. Aunque en las dos primeras preguntas identificó correctamente la existencia de un problema, no proporcionó los detalles correctos.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 3 - Patrones, errores o anomalías"
+  }
+}

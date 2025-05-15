@@ -1,0 +1,9 @@
+{
+  "modelo": "phi4",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 2 - Resumen del contenido",
+  "preguntas_respuestas": {
+    "Resume en una línea qué está ocurriendo en el sistema.": "El sistema ha detectado múltiples fallos de autenticación, varios archivos maliciosos (webshell, xbash, mirai) identificados y eliminados por YARA reglas, junto con intentos de fuerza bruta sobre SSH."
+  },
+  "timestamp": "20250514_153407"
+}

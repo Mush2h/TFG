@@ -1,0 +1,26 @@
+{
+  "phi4": {
+    "modelo": "phi4",
+    "evaluacion": "1. \"¿Detectas algún comportamiento anómalo en estos logs?\": Incorrecta. Aunque el modelo reconoce que hay comportamientos anómalos, no especifica cuáles son, como lo hace la respuesta correcta.\n2. \"¿Hay intentos de acceso fallidos?¿Dime con que alerta?\": Incorrecta. El modelo no proporciona la alerta específica que se menciona en la respuesta correcta.\n3. \"¿Hay ficheros que son problemáticos dime cuales?\": Incorrecta. El modelo parece confundido y proporciona una alerta en lugar de los nombres de los archivos problemáticos.\n\nCalificación: 0/10. El modelo no proporcionó ninguna respuesta correcta.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 3 - Patrones, errores o anomalías"
+  },
+  "llama3.2": {
+    "modelo": "llama3.2",
+    "evaluacion": "1. \"¿Detectas algún comportamiento anómalo en estos logs?\": Incorrecta. Aunque el modelo identifica que hay un comportamiento anómalo, no especifica cuál es, como se hace en la respuesta correcta.\n2. \"¿Hay intentos de acceso fallidos?¿Dime con que alerta?\": Incorrecta. El modelo proporciona una alerta incorrecta. La respuesta correcta es \"sshd: brute force trying to get access to the system. Authentication failed.\"\n3. \"¿Hay ficheros que son problemáticos dime cuales?\": Incorrecta. El modelo no proporciona los nombres de los archivos problemáticos como se pide en la pregunta.\n\nCalificación: 0/10. Ninguna de las respuestas proporcionadas por el modelo es correcta.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 3 - Patrones, errores o anomalías"
+  },
+  "deepseek-r1_32b": {
+    "modelo": "deepseek-r1_32b",
+    "evaluacion": "1. \"¿Detectas algún comportamiento anómalo en estos logs?\": Correcta.\n2. \"¿Hay intentos de acceso fallidos?¿Dime con que alerta?\": Incorrecta. La respuesta del modelo no coincide con la respuesta correcta en cuanto a la alerta específica que se utilizó. La alerta correcta es \"sshd: brute force trying to get access to the system. Authentication failed\", mientras que el modelo menciona \"Alerta 5760 con 339 accesos SSH fallidos\".\n3. \"¿Hay ficheros que son problemáticos dime cuales?\": Correcta.\n\nCalificación: 7/10. El modelo acertó en 2 de las 3 preguntas, pero falló en proporcionar la alerta correcta en la segunda pregunta.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 3 - Patrones, errores o anomalías"
+  },
+  "openai_gpt4": {
+    "modelo": "openai_gpt4",
+    "evaluacion": "1. \"¿Detectas algún comportamiento anómalo en estos logs?\": Incorrecta. La respuesta del modelo es demasiado vaga y no menciona los detalles específicos que se encuentran en la respuesta correcta, como los intentos fallidos de autenticación y la ejecución de scripts sospechosos.\n   \n2. \"¿Hay intentos de acceso fallidos?¿Dime con que alerta?\": Parcialmente correcta. El modelo menciona la alerta correcta, pero también agrega otras alertas que no se mencionan en la respuesta correcta. Esto podría ser confuso o incorrecto dependiendo del contexto.\n\n3. \"¿Hay ficheros que son problemáticos dime cuales?\": Correcta. El modelo menciona los mismos archivos problemáticos que la respuesta correcta.\n\nCalificación: 7/10. El modelo proporcionó una respuesta correcta y una parcialmente correcta, pero falló en proporcionar los detalles necesarios en la primera pregunta.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 3 - Patrones, errores o anomalías"
+  }
+}

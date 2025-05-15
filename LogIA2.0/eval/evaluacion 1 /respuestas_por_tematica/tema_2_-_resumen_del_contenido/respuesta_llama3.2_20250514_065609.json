@@ -1,0 +1,9 @@
+{
+  "modelo": "llama3.2",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 2 - Resumen del contenido",
+  "preguntas_respuestas": {
+    "Resume en una línea qué está ocurriendo en el sistema.": "Los siguientes logs indican que se han detectado intentos de acceso no autorizados al sistema, incluyendo autenticaciones fallidas, ejecución de comandos maliciosos (webshell, xbash, mirai) y modificación o eliminación de archivos, lo que sugiere una posible infestación de malware."
+  },
+  "timestamp": "20250514_065609"
+}

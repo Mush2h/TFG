@@ -1,0 +1,12 @@
+{
+  "modelo": "llama3.2",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 4 - Conclusiones",
+  "preguntas_respuestas": {
+    "¿Qué podría estar causando los errores observados?": "Posible causa de errores: Ataques cibernéticos, como phishing y malware, podrían estar causando errores.",
+    "Sugiere posibles soluciones para los errores detectados.": "Soluciones sugeridas: Actualizar software y aplicaciones, utilizar herramientas de seguridad y configurar firewalls.",
+    "¿Hay indicios de algún tipo de ataque, dime cual o cuales?": "Indicios de ataque: Sí/No, tipo: Existe algún malware o virus detectado.",
+    "¿Cuál sería tu diagnóstico general del estado del sistema según estos logs?": "Diagnóstico general: El sistema tiene un alto nivel de actividad sospechosa."
+  },
+  "timestamp": "20250514_153407"
+}

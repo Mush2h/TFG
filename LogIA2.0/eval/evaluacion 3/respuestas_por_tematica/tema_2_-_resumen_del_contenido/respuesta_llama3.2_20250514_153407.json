@@ -1,0 +1,9 @@
+{
+  "modelo": "llama3.2",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 2 - Resumen del contenido",
+  "preguntas_respuestas": {
+    "Resume en una línea qué está ocurriendo en el sistema.": "El sistema ha sido objetivo de varios ataques cibernéticos, incluyendo múltiples intentos de acceso sin éxito seguidos de un éxito, brute force de sshd, uso de scripts webshell y ELF maliciosos, y modificación de archivos en la carpeta /home."
+  },
+  "timestamp": "20250514_153407"
+}

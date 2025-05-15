@@ -1,0 +1,11 @@
+{
+  "modelo": "deepseek-r1_32b",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 1 - Eventos básicos",
+  "preguntas_respuestas": {
+    "¿Cuántos eventos hay en el fichero de logs sumando el campo recuento?": "El número total de eventos sumando el campo 'recuento' es **554**.",
+    "¿Cuántos agentes diferentes aparecen y cual es el nombre?": "Solo hay **1 agente**, cuyo nombre es **\"agente-ubuntu\"**.",
+    "¿Qué tipo de evento es el más crítico dime su según el nivel ?": "El evento más crítico, basado en el nivel (nivel 5), es:"
+  },
+  "timestamp": "20250514_170547"
+}

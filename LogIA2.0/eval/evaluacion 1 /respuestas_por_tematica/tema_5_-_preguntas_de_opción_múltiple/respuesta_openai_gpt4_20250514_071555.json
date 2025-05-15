@@ -1,0 +1,14 @@
+{
+  "modelo": "openai_gpt4",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 5 - Preguntas de opción múltiple",
+  "preguntas_respuestas": {
+    "¿Qué tipo de ataque se detecta en múltiples entradas del log?\nA) Escaneo de puertos\nB) Ataque de denegación de servicio (DoS)\nC) Fuerza bruta sobre SSH\nD) Inyección SQL": "1: C",
+    "¿Qué archivo fue identificado con múltiples reglas YARA maliciosas?\nA) /etc/passwd\nB) /home/mirai\nC) /var/log/auth.log\nD) /home/unknown": "2: B",
+    "¿Qué nivel de criticidad es la mayor de los eventos detectados por las reglas YARA?\nA) 3\nB) 12\nC) 7\nD) 10": "3: D",
+    "¿Cuál es el evento más crítico relacionado con sshd?\nA) Cambio de contraseña exitoso\nB) Acceso root autorizado\nC) Autenticación fallida por fuerza bruta\nD) Sesión cerrada": "4: C",
+    "¿Qué agente está registrando todos los eventos del log?\nA) agente-centos\nB) agente-debian\nC) agente-ubuntu\nD) agente-fedora": "5: C",
+    "¿Qué tipo de archivos fueron detectados como maliciosos por las reglas YARA?\nA) Archivos .docx\nB) Archivos .conf\nC) Archivos sospechosos en /home/\nD) Archivos ejecutables del sistema": "6: C"
+  },
+  "timestamp": "20250514_071555"
+}

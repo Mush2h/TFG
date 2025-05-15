@@ -1,0 +1,11 @@
+{
+  "modelo": "openai_gpt4",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 3 - Patrones, errores o anomalías",
+  "preguntas_respuestas": {
+    "¿Detectas algún comportamiento anómalo en estos logs?": "Sí, se detectan comportamientos anómalos en estos logs.",
+    "¿Hay intentos de acceso fallidos?¿Dime con que alerta?": "Sí, hay intentos de acceso fallidos con la alerta \"sshd: authentication failed.\"",
+    "¿Hay ficheros que son problemáticos dime cuales?": "Sí, los ficheros problemáticos son \"/home/webshell\", \"/home/xbash\" y \"/home/mirai\"."
+  },
+  "timestamp": "20250514_170547"
+}

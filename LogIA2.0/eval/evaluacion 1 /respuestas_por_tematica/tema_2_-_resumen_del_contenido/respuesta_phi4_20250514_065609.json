@@ -1,0 +1,9 @@
+{
+  "modelo": "phi4",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 2 - Resumen del contenido",
+  "preguntas_respuestas": {
+    "Resume en una línea qué está ocurriendo en el sistema.": "El sistema presenta múltiples intentos fallidos de autenticación, detección de archivos maliciosos identificados como webshells y malware (xbash, mirai), activación de respuestas automáticas para eliminar estos archivos y un servicio systemd que falló."
+  },
+  "timestamp": "20250514_065609"
+}

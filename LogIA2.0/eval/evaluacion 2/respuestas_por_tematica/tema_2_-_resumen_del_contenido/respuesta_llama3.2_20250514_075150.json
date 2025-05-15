@@ -1,0 +1,9 @@
+{
+  "modelo": "llama3.2",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 2 - Resumen del contenido",
+  "preguntas_respuestas": {
+    "Resume en una línea qué está ocurriendo en el sistema.": "El sistema ha detectado múltiples intentos de acceso fallidos, bruteforce y cambios en archivos y directorios sospechosos, indicando presencia potencial de ataques cibernéticos y malware en el sistema."
+  },
+  "timestamp": "20250514_075150"
+}

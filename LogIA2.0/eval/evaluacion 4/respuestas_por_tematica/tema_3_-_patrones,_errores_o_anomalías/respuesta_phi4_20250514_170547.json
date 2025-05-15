@@ -1,0 +1,11 @@
+{
+  "modelo": "phi4",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 3 - Patrones, errores o anomalías",
+  "preguntas_respuestas": {
+    "¿Detectas algún comportamiento anómalo en estos logs?": "Sí, hay comportamientos anómalos. Hay múltiples intentos de acceso fallidos identificados por las alertas \"sshd: brute force trying to get access to the system. Authentication failed.\" (recuento 2) y \"PAM: Multiple failed logins in a small period of time.\" (recuento 8). También se detecta \"Multiple authentication failures followed by a success\" con recuento 1.",
+    "¿Hay intentos de acceso fallidos?¿Dime con que alerta?": "Los ficheros problemáticos son:",
+    "¿Hay ficheros que son problemáticos dime cuales?": "/home/webshell (positivo para dos YARA rules)"
+  },
+  "timestamp": "20250514_170547"
+}

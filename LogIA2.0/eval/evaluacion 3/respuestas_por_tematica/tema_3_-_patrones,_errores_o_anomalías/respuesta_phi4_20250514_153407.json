@@ -1,0 +1,11 @@
+{
+  "modelo": "phi4",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 3 - Patrones, errores o anomalías",
+  "preguntas_respuestas": {
+    "¿Detectas algún comportamiento anómalo en estos logs?": "Sí, hay comportamientos anómalos.",
+    "¿Hay intentos de acceso fallidos?¿Dime con que alerta?": "Sí, hay intentos de acceso fallidos. Las alertas correspondientes son:",
+    "¿Hay ficheros que son problemáticos dime cuales?": "\"Multiple authentication failures followed by a success.\" (40112)"
+  },
+  "timestamp": "20250514_153407"
+}

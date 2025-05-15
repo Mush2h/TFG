@@ -1,0 +1,11 @@
+{
+  "modelo": "deepseek-r1_32b",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 3 - Patrones, errores o anomalías",
+  "preguntas_respuestas": {
+    "¿Detectas algún comportamiento anómalo en estos logs?": "Sí | Alta actividad de intentos fallidos de autenticación SSH (alerta 5760 con recuento 339).",
+    "¿Hay intentos de acceso fallidos?¿Dime con que alerta?": "Sí | Alerta 5760: sshd: authentication failed.",
+    "¿Hay ficheros que son problemáticos dime cuales?": "Nombres ficheros problemáticos: /home/mirai, /home/xbash, /home/webshell"
+  },
+  "timestamp": "20250514_075150"
+}

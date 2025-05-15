@@ -1,0 +1,9 @@
+{
+  "modelo": "llama3.2",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 2 - Resumen del contenido",
+  "preguntas_respuestas": {
+    "Resume en una línea qué está ocurriendo en el sistema.": "El sistema ha detectado varios intentos de acceso no autorizados, incluyendo:"
+  },
+  "timestamp": "20250515_040729"
+}

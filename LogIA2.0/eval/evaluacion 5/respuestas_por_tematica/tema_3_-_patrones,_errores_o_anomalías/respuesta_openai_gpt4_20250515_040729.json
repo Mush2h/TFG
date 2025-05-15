@@ -1,0 +1,11 @@
+{
+  "modelo": "openai_gpt4",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 3 - Patrones, errores o anomalías",
+  "preguntas_respuestas": {
+    "¿Detectas algún comportamiento anómalo en estos logs?": "Sí, se detecta comportamiento anómalo en los logs.",
+    "¿Hay intentos de acceso fallidos?¿Dime con que alerta?": "Sí, hay intentos de acceso fallidos con la alerta \"sshd: brute force trying to get access to the system. Authentication failed.\"",
+    "¿Hay ficheros que son problemáticos dime cuales?": "Sí, los ficheros problemáticos son \"/home/webshell\", \"/home/xbash\" y \"/home/mirai\"."
+  },
+  "timestamp": "20250515_040729"
+}

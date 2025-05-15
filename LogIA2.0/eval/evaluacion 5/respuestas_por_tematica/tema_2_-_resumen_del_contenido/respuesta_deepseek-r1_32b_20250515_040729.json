@@ -1,0 +1,9 @@
+{
+  "modelo": "deepseek-r1_32b",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 2 - Resumen del contenido",
+  "preguntas_respuestas": {
+    "Resume en una línea qué está ocurriendo en el sistema.": "Se está produciendo un ataque de fuerza bruta contra el sistema SSH con múltiples intentos fallidos de autenticación, se han detectado y eliminado archivos maliciosos en el directorio /home, y hay actividad sospechosa de creación y modificación de archivos."
+  },
+  "timestamp": "20250515_040729"
+}

@@ -1,0 +1,50 @@
+{
+  "deepseek-r1_32b": {
+    "tema": "Tema 1 - Eventos básicos",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "score": 3.33,
+    "aciertos": 1,
+    "total": 3,
+    "detalle": {
+      "¿Cuántos eventos hay en el fichero de logs?": "❌ Incorrecta\n    Esperado: Hay 730 eventos.\n    Modelo: ",
+      "¿Cuántos agentes diferentes aparecen y cual es el nombre?": "✅ Correcta\n    Esperado: Hay 1 agente: agente-ubuntu. \n    Modelo: Hay 1 agente: agente-ubuntu.",
+      "¿Qué tipo de evento es el más crítico dime su según el nivel ?": "❌ Incorrecta\n    Esperado: El evento más crítico es Multiple authentication failures followed by a success. con nivel 12.\n    Modelo: El evento más crítico es sshd: authentication failed. con nivel 5."
+    }
+  },
+  "llama3.2": {
+    "tema": "Tema 1 - Eventos básicos",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "score": 0.0,
+    "aciertos": 0,
+    "total": 3,
+    "detalle": {
+      "¿Cuántos eventos hay en el fichero de logs?": "❌ Incorrecta\n    Esperado: Hay 730 eventos.\n    Modelo: ",
+      "¿Cuántos agentes diferentes aparecen y cual es el nombre?": "❌ Incorrecta\n    Esperado: Hay 1 agente: agente-ubuntu.\n    Modelo: Hay 2 agentes: agente-ubuntu",
+      "¿Qué tipo de evento es el más crítico dime su según el nivel ?": "❌ Incorrecta\n    Esperado: El evento más crítico es Multiple authentication failures followed by a success. con nivel 12.\n    Modelo: El evento más crítico es \"Maximum authentication attempts exceeded.\" con nivel 5."
+    }
+  },
+  "phi4": {
+    "tema": "Tema 1 - Eventos básicos",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "score": 3.33,
+    "aciertos": 1,
+    "total": 3,
+    "detalle": {
+      "¿Cuántos eventos hay en el fichero de logs?": "❌ Incorrecta\n    Esperado: Hay 730 eventos.\n    Modelo: ",
+      "¿Cuántos agentes diferentes aparecen y cual es el nombre?": "✅ Correcta\n    Esperado: Hay 1 agente: agente-ubuntu. \n    Modelo: Hay 1 agente: agente-ubuntu.",
+      "¿Qué tipo de evento es el más crítico dime su según el nivel ?": "❌ Incorrecta\n    Esperado: El evento más crítico es Multiple authentication failures followed by a success. con nivel 12.\n    Modelo: El evento más crítico es \"Multiple authentication failures followed by a success.\" con nivel 12."
+    }
+  },
+  "openai_gpt4": {
+    "tema": "Tema 1 - Eventos básicos",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "score": 3.33,
+    "aciertos": 1,
+    "total": 3,
+    "detalle": {
+      "¿Cuántos eventos hay en el fichero de logs?": "❌ Incorrecta\n    Esperado: Hay 730 eventos.\n    Modelo: ",
+      "¿Cuántos agentes diferentes aparecen y cual es el nombre?": "✅ Correcta\n    Esperado: Hay 1 agente: agente-ubuntu. \n    Modelo: Hay 1 agente: agente-ubuntu.",
+      "¿Qué tipo de evento es el más crítico dime su según el nivel ?": "❌ Incorrecta\n    Esperado: El evento más crítico es Multiple authentication failures followed by a success. con nivel 12.\n    Modelo: El evento más crítico es \"Multiple authentication failures followed by a success.\" con nivel 12."
+    }
+  }
+}

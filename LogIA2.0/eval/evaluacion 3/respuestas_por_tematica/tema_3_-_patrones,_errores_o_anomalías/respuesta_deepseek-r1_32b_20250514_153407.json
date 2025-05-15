@@ -1,0 +1,11 @@
+{
+  "modelo": "deepseek-r1_32b",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 3 - Patrones, errores o anomalías",
+  "preguntas_respuestas": {
+    "¿Detectas algún comportamiento anómalo en estos logs?": "Sí / Anomalías detectadas incluyen accesos fallidos y archivos sospechosos",
+    "¿Hay intentos de acceso fallidos?¿Dime con que alerta?": "Sí / Alerta 5760 con 339 accesos SSH fallidos",
+    "¿Hay ficheros que son problemáticos dime cuales?": "Archivos problemáticos: /home/xbash, /home/mirai, /home/webshell"
+  },
+  "timestamp": "20250514_153407"
+}

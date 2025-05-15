@@ -1,0 +1,26 @@
+{
+  "deepseek-r1_32b": {
+    "modelo": "deepseek-r1_32b",
+    "evaluacion": "1. \"¿Detectas algún comportamiento anómalo en estos logs?\": Correcta.\n2. \"¿Hay intentos de acceso fallidos?¿Dime con que alerta?\": Incorrecta. El modelo no proporcionó ninguna respuesta.\n3. \"¿Hay ficheros que son problemáticos dime cuales?\": Incorrecta. El modelo no proporcionó ninguna respuesta.\n\nExplicaciones:\n- La segunda y tercera respuesta son incorrectas porque el modelo no proporcionó ninguna respuesta.\n\nCalificación: 3.33/10. El modelo solo respondió correctamente a una de las tres preguntas.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 3 - Patrones, errores o anomalías"
+  },
+  "llama3.2": {
+    "modelo": "llama3.2",
+    "evaluacion": "1. \"¿Detectas algún comportamiento anómalo en estos logs?\": Incorrecta. Aunque el modelo responde afirmativamente, no proporciona detalles sobre los intentos fallidos de autenticación y la ejecución de scripts sospechosos, como se menciona en la respuesta correcta.\n2. \"¿Hay intentos de acceso fallidos?¿Dime con que alerta?\": Correcta. El modelo proporciona la misma alerta que la respuesta correcta.\n3. \"¿Hay ficheros que son problemáticos dime cuales?\": Incorrecta. El modelo no proporciona ningún nombre de archivo, mientras que la respuesta correcta menciona tres archivos específicos.\n\nCalificación: 3/10. El modelo solo respondió correctamente a una de las tres preguntas. En las otras dos, no proporcionó suficiente detalle o información incorrecta.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 3 - Patrones, errores o anomalías"
+  },
+  "phi4": {
+    "modelo": "phi4",
+    "evaluacion": "1. \"¿Detectas algún comportamiento anómalo en estos logs?\"\n- Respuesta del modelo: Incorrecta\n- Explicación: La respuesta del modelo es demasiado vaga y no proporciona detalles específicos sobre los comportamientos anómalos detectados, a diferencia de la respuesta correcta que menciona \"múltiples intentos fallidos de autenticación seguidos de ejecución de scripts sospechosos.\"\n\n2. \"¿Hay intentos de acceso fallidos?¿Dime con que alerta?\"\n- Respuesta del modelo: Correcta\n- Explicación: Aunque el modelo proporciona una alerta adicional (\"syslog: User missed the password more than one time\") que no se menciona en la respuesta correcta, la alerta principal (\"sshd: brute force trying to get access to the system. Authentication failed.\") se menciona correctamente.\n\n3. \"¿Hay ficheros que son problemáticos dime cuales?\"\n- Respuesta del modelo: Correcta\n- Explicación: El modelo identifica correctamente los tres archivos problemáticos (\"/home/webshell\", \"/home/xbash\" y \"/home/mirai\") mencionados en la respuesta correcta.\n\nCalificación: 7/10. Aunque el modelo identificó correctamente dos de las tres preguntas, la falta de detalles en la primera respuesta disminuye su puntuación.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 3 - Patrones, errores o anomalías"
+  },
+  "openai_gpt4": {
+    "modelo": "openai_gpt4",
+    "evaluacion": "1. \"¿Detectas algún comportamiento anómalo en estos logs?\": Incorrecta. Aunque la respuesta del modelo es correcta en términos generales, no proporciona el detalle específico que se encuentra en la respuesta correcta sobre los intentos fallidos de autenticación y la ejecución de scripts sospechosos.\n2. \"¿Hay intentos de acceso fallidos?¿Dime con que alerta?\": Correcta. El modelo proporcionó la alerta correcta y añadió una alerta adicional \"Multiple authentication failures\" que no estaba en la respuesta correcta, pero que no contradice la información.\n3. \"¿Hay ficheros que son problemáticos dime cuales?\": Correcta. La respuesta del modelo coincide exactamente con la respuesta correcta.\n\nCalificación: 8/10. Las respuestas del modelo fueron en su mayoría correctas, pero faltó detalle en la primera pregunta.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 3 - Patrones, errores o anomalías"
+  }
+}

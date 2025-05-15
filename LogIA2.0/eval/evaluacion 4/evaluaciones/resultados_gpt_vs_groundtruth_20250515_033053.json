@@ -1,0 +1,26 @@
+{
+  "llama3.2": {
+    "modelo": "llama3.2",
+    "evaluacion": "1. Incorrecta.\n2. La respuesta del modelo proporciona detalles específicos que no están presentes en la respuesta correcta. Menciona un ataque de brute force en SSH, más de 50 intentos fallidos recientes y la presencia de archivos sospechosos específicos (\"webshell\" y \"mirai\"), mientras que la respuesta correcta solo menciona que el sistema registra accesos exitosos y fallidos y eventos sospechosos detectados por YARA. La respuesta del modelo puede ser correcta en un contexto diferente, pero no coincide con la respuesta correcta proporcionada.\n3. Calificación: 0/10.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 2 - Resumen del contenido"
+  },
+  "phi4": {
+    "modelo": "phi4",
+    "evaluacion": "1. Incorrecta.\n2. La respuesta del modelo es incorrecta porque aunque menciona eventos similares (accesos fallidos y detección de archivos maliciosos), no menciona la detección de eventos sospechosos por YARA, que es parte de la respuesta correcta. Además, añade detalles que no están presentes en la respuesta correcta, como la eliminación de los archivos maliciosos.\n3. Calificación: 6/10. La respuesta del modelo es parcialmente correcta, pero incluye información adicional no mencionada en la respuesta correcta y omite detalles importantes.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 2 - Resumen del contenido"
+  },
+  "deepseek-r1_32b": {
+    "modelo": "deepseek-r1_32b",
+    "evaluacion": "1. Incorrecta.\n2. La respuesta del modelo es incorrecta porque aunque menciona eventos similares a los que se mencionan en la respuesta correcta (accesos fallidos, detección de eventos sospechosos), añade detalles adicionales que no se mencionan en la respuesta correcta (múltiples intentos fallidos de autenticación, detección de archivos maliciosos en el directorio `/home`, alta actividad de modificación y eliminación de archivos). Además, la respuesta del modelo sugiere que hay un ataque en curso, lo cual no se menciona en la respuesta correcta.\n3. Calificación: 5/10. Aunque la respuesta del modelo no es completamente incorrecta, añade detalles que no se mencionan en la respuesta correcta y sugiere una situación más grave de lo que se indica en la respuesta correcta.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 2 - Resumen del contenido"
+  },
+  "openai_gpt4": {
+    "modelo": "openai_gpt4",
+    "evaluacion": "1. Incorrecta.\n2. La respuesta del modelo no coincide con la respuesta correcta. Aunque ambas respuestas hablan de eventos en el sistema, la respuesta del modelo menciona \"múltiples intentos de autenticación fallidos\" y \"detección de archivos maliciosos\", que no se mencionan en la respuesta correcta. Además, la respuesta correcta menciona \"eventos sospechosos detectados por YARA\", lo cual no se menciona en la respuesta del modelo.\n3. Calificación: 4/10. Aunque la respuesta del modelo es incorrecta, tiene cierta relevancia al tema, ya que también habla de eventos en el sistema. Sin embargo, no coincide con los detalles específicos de la respuesta correcta.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 2 - Resumen del contenido"
+  }
+}

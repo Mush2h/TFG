@@ -1,0 +1,11 @@
+{
+  "modelo": "llama3.2",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 3 - Patrones, errores o anomalías",
+  "preguntas_respuestas": {
+    "¿Detectas algún comportamiento anómalo en estos logs?": "Sí",
+    "¿Hay intentos de acceso fallidos?¿Dime con que alerta?": "Alerta: brute force trying to get access to the system. Authentication failed.",
+    "¿Hay ficheros que son problemáticos dime cuales?": "Nombres ficheros problematicos:"
+  },
+  "timestamp": "20250514_065609"
+}

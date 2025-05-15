@@ -1,0 +1,11 @@
+{
+  "modelo": "openai_gpt4",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 3 - Patrones, errores o anomalías",
+  "preguntas_respuestas": {
+    "¿Detectas algún comportamiento anómalo en estos logs?": "Sí, se detectan comportamientos anómalos en estos logs.",
+    "¿Hay intentos de acceso fallidos?¿Dime con que alerta?": "Sí, hay intentos de acceso fallidos con las alertas \"Multiple authentication failures followed by a success\", \"sshd: brute force trying to get access to the system. Authentication failed\", \"Multiple authentication failures\", \"syslog: User missed the password more than one time\", \"PAM: Multiple failed logins in a small period of time\", \"Maximum authentication attempts exceeded\", \"syslog: User authentication failure\", \"PAM: User login failed\", \"sshd: authentication failed\".",
+    "¿Hay ficheros que son problemáticos dime cuales?": "Los ficheros problemáticos son \"/home/webshell\", \"/home/xbash\", \"/home/mirai\"."
+  },
+  "timestamp": "20250514_153407"
+}

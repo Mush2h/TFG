@@ -1,0 +1,30 @@
+{
+    "Tema 1 - Eventos básicos": {
+      "¿Cuántos eventos hay en el fichero de logs?": "Hay 730 eventos.",
+      "¿Cuántos agentes diferentes aparecen y cual es el nombre?": "Hay 1 agente: agente-ubuntu.",
+      "¿Qué tipo de evento es el más crítico dime su según el nivel ?": "El evento más crítico es Multiple authentication failures followed by a success. con nivel 12."
+    },
+    "Tema 2 - Resumen del contenido": {
+      "Resume en una línea qué está ocurriendo en el sistema.": "El sistema registra accesos exitosos y fallidos, junto a eventos sospechosos detectados por YARA."
+    },
+    "Tema 3 - Patrones, errores o anomalías": {
+      "¿Detectas algún comportamiento anómalo en estos logs?": "Sí, múltiples intentos fallidos de autenticación seguidos de ejecución de scripts sospechosos.",
+      "¿Hay intentos de acceso fallidos?¿Dime con que alerta?": "Sí, alerta usada: sshd: brute force trying to get access to the system. Authentication failed.",
+      "¿Hay ficheros que son problematicos dime cuales?": "/home/xbash, /home/webshell, /home/mirai."
+    },
+    "Tema 4 - Conclusiones": {
+      "¿Qué podría estar causando los errores observados?": "Fuerza bruta SSH y ejecución de binarios sospechosos.",
+      "Sugiere posibles soluciones para los errores detectados.": "Bloquear IPs, configurar autenticación de dos factores, revisar integridad de archivos.",
+      "¿Hay indicios de algún tipo de ataque, dime cual o cuales?": "Sí, ataque de fuerza bruta e instalación de malware.",
+      "¿Cuál sería tu diagnóstico general del estado del sistema según estos logs?": "Sistema bajo intento activo de intrusión con evidencias de compromiso parcial."
+    },
+    "Tema 5 - Preguntas de opción múltiple": {
+      "¿Qué tipo de ataque se detecta en múltiples entradas del log?\nA) Escaneo de puertos\nB) Ataque de denegación de servicio (DoS)\nC) Fuerza bruta sobre SSH\nD) Inyección SQL": "1: C",
+      "¿Qué archivo fue identificado con múltiples reglas YARA maliciosas?\nA) /etc/passwd\nB) /home/mirai\nC) /var/log/auth.log\nD) /home/unknown": "2: B",
+      "¿Qué nivel de criticidad es la mayor de los eventos detectados?\nA) 3\nB) 12\nC) 7\nD) 10": "3: B",
+      "¿Cuál es el evento más crítico relacionado con sshd?\nA) Cambio de contraseña exitoso\nB) Acceso root autorizado\nC) Autenticación fallida por fuerza bruta\nD) Sesión cerrada": "4: C",
+      "¿Qué agente está registrando todos los eventos del log?\nA) agente-centos\nB) agente-debian\nC) agente-ubuntu\nD) agente-fedora": "5: C",
+      "¿Qué tipo de archivos fueron detectados como maliciosos por las reglas YARA?\nA) Archivos .docx\nB) Archivos .conf\nC) Archivos sospechosos en /home/\nD) Archivos ejecutables del sistema": "6: C"
+    }
+  }
+  

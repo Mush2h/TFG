@@ -1,0 +1,11 @@
+{
+  "modelo": "deepseek-r1_32b",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 3 - Patrones, errores o anomalías",
+  "preguntas_respuestas": {
+    "¿Detectas algún comportamiento anómalo en estos logs?": "Sí. Los logs muestran multiples intentos fallidos de autenticación (ID 5760: sshd: authentication failed. con 339 recuentos). Sí, la alerta es ID 5760: sshd: authentication failed. Los archivos problemáticos son /home/xbash, /home/mirai y /home/webshell.",
+    "¿Hay intentos de acceso fallidos?¿Dime con que alerta?": "(Sin respuesta)",
+    "¿Hay ficheros que son problemáticos dime cuales?": "(Sin respuesta)"
+  },
+  "timestamp": "20250514_065609"
+}

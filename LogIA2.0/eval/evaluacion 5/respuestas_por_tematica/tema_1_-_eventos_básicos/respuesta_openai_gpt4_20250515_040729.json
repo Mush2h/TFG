@@ -1,0 +1,11 @@
+{
+  "modelo": "openai_gpt4",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 1 - Eventos básicos",
+  "preguntas_respuestas": {
+    "¿Cuántos eventos hay en el fichero de logs sumando el campo recuento?": "Hay 685 eventos.",
+    "¿Cuántos agentes diferentes aparecen y cual es el nombre?": "Hay 1 agente: agente-ubuntu.",
+    "¿Qué tipo de evento es el más crítico dime su según el nivel ?": "El evento más crítico es \"Multiple authentication failures followed by a success.\" con nivel 12."
+  },
+  "timestamp": "20250515_040729"
+}

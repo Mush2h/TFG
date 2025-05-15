@@ -1,0 +1,9 @@
+{
+  "modelo": "llama3.2",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 2 - Resumen del contenido",
+  "preguntas_respuestas": {
+    "Resume en una línea qué está ocurriendo en el sistema.": "El sistema está sufriendo un ataque de brute force en SSH y varios intentos fallidos de autenticación, con más de 50 intentos fallidos recientes, además de la presencia de archivos sospechosos como \"webshell\" y \"mirai\", indicando una posible infestación de malware."
+  },
+  "timestamp": "20250514_170547"
+}

@@ -1,0 +1,26 @@
+{
+  "phi4": {
+    "modelo": "phi4",
+    "evaluacion": "1. \"¿Qué podría estar causando los errores observados?\": Correcta.\n2. \"Sugiere posibles soluciones para los errores detectados.\": Correcta.\n3. \"¿Hay indicios de algún tipo de ataque, dime cual o cuales?\": Correcta.\n4. \"¿Cuál sería tu diagnóstico general del estado del sistema según estos logs?\": Correcta.\n\nLas respuestas del modelo son correctas y proporcionan un nivel de detalle similar al de las respuestas correctas. Aunque las palabras exactas no coinciden, el modelo identifica correctamente los problemas y las soluciones, y proporciona un diagnóstico general acertado.\n\nCalificación: 10/10.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 4 - Conclusiones"
+  },
+  "openai_gpt4": {
+    "modelo": "openai_gpt4",
+    "evaluacion": "1. \"¿Qué podría estar causando los errores observados?\": Correcta. Aunque la respuesta del modelo no menciona explícitamente la \"fuerza bruta SSH\", sí menciona \"múltiples intentos de autenticación fallidos\", que es una descripción de un ataque de fuerza bruta. Además, menciona la presencia de archivos maliciosos, que se alinea con \"ejecución de binarios sospechosos\" en la respuesta correcta.\n\n2. \"Sugiere posibles soluciones para los errores detectados.\": Correcta. La respuesta del modelo propone soluciones que se alinean con las de la respuesta correcta, aunque con diferentes palabras. Ambas respuestas sugieren reforzar la seguridad y eliminar los archivos maliciosos.\n\n3. \"¿Hay indicios de algún tipo de ataque, dime cual o cuales?\": Correcta. La respuesta del modelo coincide con la respuesta correcta al identificar un ataque de fuerza bruta y la presencia de malware.\n\n4. \"¿Cuál sería tu diagnóstico general del estado del sistema según estos logs?\": Correcta. La respuesta del modelo coincide con la respuesta correcta al identificar que el sistema está bajo ataque y ha sido comprometido.\n\nCalificación: 10/10. Todas las respuestas del modelo están correctas y se alinean con las respuestas correctas, aunque se expresan con diferentes palabras.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 4 - Conclusiones"
+  },
+  "deepseek-r1_32b": {
+    "modelo": "deepseek-r1_32b",
+    "evaluacion": "1. \"¿Qué podría estar causando los errores observados?\": Correcta.\n2. \"Sugiere posibles soluciones para los errores detectados.\": Correcta.\n3. \"¿Hay indicios de algún tipo de ataque, dime cual o cuales?\": Correcta.\n4. \"¿Cuál sería tu diagnóstico general del estado del sistema según estos logs?\": Correcta.\n\nExplicación: Todas las respuestas del modelo son correctas. Aunque no son idénticas a las respuestas correctas, proporcionan la misma información y están en línea con las respuestas correctas.\n\nCalificación: 10/10.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 4 - Conclusiones"
+  },
+  "llama3.2": {
+    "modelo": "llama3.2",
+    "evaluacion": "1. \"¿Qué podría estar causando los errores observados?\": Correcta. Aunque la respuesta del modelo no menciona específicamente la fuerza bruta SSH y la ejecución de binarios sospechosos, sí menciona los ataques cibernéticos y el malware, que son consistentes con la respuesta correcta.\n   \n2. \"Sugiere posibles soluciones para los errores detectados.\": Correcta. La respuesta del modelo incluye soluciones que son consistentes con la respuesta correcta, aunque agrega algunas sugerencias adicionales como actualizar los paquetes de seguridad y realizar un escaneo de virus y malware.\n\n3. \"¿Hay indicios de algún tipo de ataque, dime cual o cuales?\": Correcta. La respuesta del modelo identifica correctamente que hay indicios de un ataque, aunque menciona el phishing que no se menciona en la respuesta correcta. Sin embargo, menciona correctamente el ataque de fuerza bruta y el malware.\n\n4. \"¿Cuál sería tu diagnóstico general del estado del sistema según estos logs?\": Correcta. La respuesta del modelo coincide con la respuesta correcta en que el sistema está bajo ataque y necesita medidas de seguridad adicionales. No menciona específicamente el compromiso parcial, pero sí sugiere que el sistema está expuesto a ataques cibernéticos debido a vulnerabilidades.\n\nCalificación: 8/10. Las respuestas del modelo son en general correctas y consistentes con las respuestas correctas, aunque en algunos casos proporcionan información adicional o ligeramente diferente.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 4 - Conclusiones"
+  }
+}

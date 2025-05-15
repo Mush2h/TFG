@@ -1,0 +1,26 @@
+{
+  "phi4": {
+    "modelo": "phi4",
+    "evaluacion": "1. Respuesta: Correcta\n2. Respuesta: Correcta\n3. Respuesta: Incorrecta. La respuesta correcta es \"3: B\". El modelo respondió \"3: D\", lo cual es incorrecto.\n4. Respuesta: Correcta\n5. Respuesta: Correcta\n6. Respuesta: Correcta\n\nExplicación: El modelo falló en la tercera pregunta, eligiendo la opción incorrecta para el nivel de criticidad más alto de los eventos detectados.\n\nCalificación: 8.3/10",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 5 - Preguntas de opción múltiple"
+  },
+  "openai_gpt4": {
+    "modelo": "openai_gpt4",
+    "evaluacion": "1. Respuesta correcta.\n2. Respuesta correcta.\n3. Respuesta incorrecta. El modelo respondió \"D) 10\" pero la respuesta correcta es \"B) 12\". Parece que el modelo no entendió correctamente la pregunta.\n4. Respuesta correcta.\n5. Respuesta correcta.\n6. Respuesta correcta.\n\nCalificación: 8.33/10. El modelo respondió incorrectamente a una de las seis preguntas.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 5 - Preguntas de opción múltiple"
+  },
+  "deepseek-r1_32b": {
+    "modelo": "deepseek-r1_32b",
+    "evaluacion": "1. Respuesta: Correcta.\n2. Respuesta: Correcta.\n3. Respuesta: Incorrecta. La respuesta correcta es \"3: B\", pero el modelo respondió \"3: D\". La pregunta se refiere al nivel de criticidad más alto detectado, no al nivel de criticidad de un evento específico.\n4. Respuesta: Correcta.\n5. Respuesta: Correcta.\n6. Respuesta: Correcta.\n\nCalificación: 8/10. El modelo respondió incorrectamente a una de las seis preguntas.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 5 - Preguntas de opción múltiple"
+  },
+  "llama3.2": {
+    "modelo": "llama3.2",
+    "evaluacion": "1. Respuesta correcta.\n2. Respuesta correcta.\n3. Respuesta incorrecta. La respuesta correcta es \"3: B\", pero el modelo respondió \"3: D\". El modelo se equivocó al identificar el nivel de criticidad más alto de los eventos detectados.\n4. Respuesta incorrecta. La respuesta correcta es \"4: C\", pero el modelo respondió \"4: A\". El modelo se equivocó al identificar el evento más crítico relacionado con sshd.\n5. Respuesta correcta.\n6. Respuesta incorrecta. La respuesta correcta es \"6: C\", pero el modelo respondió \"6: D\". El modelo se equivocó al identificar el tipo de archivos detectados como maliciosos por las reglas YARA.\n\nCalificación: 5/10. El modelo respondió correctamente a 3 de 6 preguntas.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 5 - Preguntas de opción múltiple"
+  }
+}

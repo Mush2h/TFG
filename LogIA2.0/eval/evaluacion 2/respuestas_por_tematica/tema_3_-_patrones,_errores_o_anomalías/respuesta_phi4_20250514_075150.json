@@ -1,0 +1,11 @@
+{
+  "modelo": "phi4",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 3 - Patrones, errores o anomalías",
+  "preguntas_respuestas": {
+    "¿Detectas algún comportamiento anómalo en estos logs?": "Sí, se detecta comportamiento anómalo.",
+    "¿Hay intentos de acceso fallidos?¿Dime con que alerta?": "Sí, hay intentos de acceso fallidos; las alertas incluyen:",
+    "¿Hay ficheros que son problemáticos dime cuales?": "\"sshd: brute force trying to get access to the system. Authentication failed.\" (2 ocurrencias)"
+  },
+  "timestamp": "20250514_075150"
+}

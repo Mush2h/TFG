@@ -1,0 +1,11 @@
+{
+  "modelo": "deepseek-r1_32b",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 1 - Eventos básicos",
+  "preguntas_respuestas": {
+    "¿Cuántos eventos hay en el fichero de logs sumando el campo recuento?": "Para determinar el número total de eventos, debemos sumar todos los valores de `recuento` de cada objeto en el array JSON.",
+    "¿Cuántos agentes diferentes aparecen y cual es el nombre?": "Ejemplo:",
+    "¿Qué tipo de evento es el más crítico dime su según el nivel ?": "Si el array JSON es:"
+  },
+  "timestamp": "20250514_075150"
+}

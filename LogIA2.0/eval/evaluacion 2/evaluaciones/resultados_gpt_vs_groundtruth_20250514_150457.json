@@ -1,0 +1,26 @@
+{
+  "openai_gpt4": {
+    "modelo": "openai_gpt4",
+    "evaluacion": "1. Incorrecta.\n2. La respuesta del modelo no coincide con la respuesta correcta. Aunque ambos mencionan accesos fallidos, la respuesta del modelo añade detalles adicionales que no están presentes en la respuesta correcta, como la detección de archivos maliciosos y su eliminación. Además, no menciona los accesos exitosos ni los eventos sospechosos detectados por YARA, que son elementos clave en la respuesta correcta.\n3. Calificación: 4/10. Aunque la respuesta del modelo está en el contexto correcto (un sistema que registra eventos), se desvía significativamente de la respuesta correcta en términos de detalles específicos.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 2 - Resumen del contenido"
+  },
+  "phi4": {
+    "modelo": "phi4",
+    "evaluacion": "1. Incorrecta.\n2. La respuesta del modelo no coincide con la respuesta correcta. Aunque ambas mencionan accesos fallidos, la respuesta del modelo añade detalles adicionales sobre la detección y eliminación de archivos maliciosos que no se mencionan en la respuesta correcta. Además, la respuesta correcta menciona la detección de eventos sospechosos por YARA, lo cual no se menciona en la respuesta del modelo.\n3. Calificación: 5/10. La respuesta del modelo es parcialmente correcta ya que menciona los accesos fallidos, pero añade información que no se menciona en la respuesta correcta y omite detalles importantes de la misma.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 2 - Resumen del contenido"
+  },
+  "llama3.2": {
+    "modelo": "llama3.2",
+    "evaluacion": "1. Correcta.\n2. Aunque la respuesta del modelo no menciona específicamente el registro de accesos exitosos y la detección de eventos sospechosos por YARA, sí proporciona una descripción general de lo que está ocurriendo en el sistema, que es consistente con la respuesta correcta.\n3. Calificación: 8/10. La respuesta del modelo es correcta en esencia, pero falta la mención de algunos detalles específicos mencionados en la respuesta correcta.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 2 - Resumen del contenido"
+  },
+  "deepseek-r1_32b": {
+    "modelo": "deepseek-r1_32b",
+    "evaluacion": "1. Correcta.\n2. N/A\n3. 10/10\n\nAunque la respuesta del modelo no es idéntica a la respuesta correcta, sí proporciona un resumen preciso de lo que está ocurriendo en el sistema, incluyendo detalles sobre intentos fallidos de autenticación, detección y eliminación de archivos maliciosos y actividad sospechosa. Por lo tanto, se considera correcta.",
+    "archivo": "logs_parseados_por_rule_description_unica.json",
+    "tema": "Tema 2 - Resumen del contenido"
+  }
+}

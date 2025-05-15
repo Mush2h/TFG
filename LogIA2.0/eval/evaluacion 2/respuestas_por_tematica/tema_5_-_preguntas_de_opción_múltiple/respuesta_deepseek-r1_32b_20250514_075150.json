@@ -1,0 +1,14 @@
+{
+  "modelo": "deepseek-r1_32b",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 5 - Preguntas de opción múltiple",
+  "preguntas_respuestas": {
+    "¿Qué tipo de ataque se detecta en múltiples entradas del log?\nA) Escaneo de puertos\nB) Ataque de denegación de servicio (DoS)\nC) Fuerza bruta sobre SSH\nD) Inyección SQL": "**Answers:**",
+    "¿Qué archivo fue identificado con múltiples reglas YARA maliciosas?\nA) /etc/passwd\nB) /home/mirai\nC) /var/log/auth.log\nD) /home/unknown": "1. **What type of attack is detected in multiple log entries?**",
+    "¿Qué nivel de criticidad es la mayor de los eventos detectados por las reglas YARA?\nA) 3\nB) 12\nC) 7\nD) 10": "**D)** Brute force attack on SSH",
+    "¿Cuál es el evento más crítico relacionado con sshd?\nA) Cambio de contraseña exitoso\nB) Acceso root autorizado\nC) Autenticación fallida por fuerza bruta\nD) Sesión cerrada": "2. **Which file was identified by multiple YARA rules as malicious?**",
+    "¿Qué agente está registrando todos los eventos del log?\nA) agente-centos\nB) agente-debian\nC) agente-ubuntu\nD) agente-fedora": "**A)** /home/mirai",
+    "¿Qué tipo de archivos fueron detectados como maliciosos por las reglas YARA?\nA) Archivos .docx\nB) Archivos .conf\nC) Archivos sospechosos en /home/\nD) Archivos ejecutables del sistema": "3. **What is the highest criticality level among the events detected by YARA rules?**"
+  },
+  "timestamp": "20250514_075150"
+}

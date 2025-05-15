@@ -1,0 +1,9 @@
+{
+  "modelo": "phi4",
+  "archivo": "logs_parseados_por_rule_description_unica.json",
+  "tema": "Tema 2 - Resumen del contenido",
+  "preguntas_respuestas": {
+    "Resume en una línea qué está ocurriendo en el sistema.": "El sistema ha experimentado múltiples intentos fallidos de autenticación seguidos por éxitos, la detección de archivos maliciosos como webshells y malware (xbash, Mirai), acciones de respuesta activa para eliminar estos archivos y varias actividades del sistema relacionadas con cambios en archivos y sesiones de usuario."
+  },
+  "timestamp": "20250515_040729"
+}
